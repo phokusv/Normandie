@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30289BB720F6497900406931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30289BB620F6497900406931 /* AppDelegate.swift */; };
+		30289BB920F6497900406931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30289BB820F6497900406931 /* ViewController.swift */; };
+		30289BBC20F6497900406931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30289BBA20F6497900406931 /* Main.storyboard */; };
+		30289BBE20F6497900406931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30289BBD20F6497900406931 /* Assets.xcassets */; };
+		30289BC120F6497900406931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30289BBF20F6497900406931 /* LaunchScreen.storyboard */; };
+		30289BCC20F6497900406931 /* NormandieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30289BCB20F6497900406931 /* NormandieTests.swift */; };
+		30289BD720F6497900406931 /* NormandieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30289BD620F6497900406931 /* NormandieUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30289BC820F6497900406931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30289BAB20F6497900406931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30289BB220F6497900406931;
+			remoteInfo = Normandie;
+		};
+		30289BD320F6497900406931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30289BAB20F6497900406931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30289BB220F6497900406931;
+			remoteInfo = Normandie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30289BB320F6497900406931 /* Normandie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Normandie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30289BB620F6497900406931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30289BB820F6497900406931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30289BBB20F6497900406931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30289BBD20F6497900406931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30289BC020F6497900406931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30289BC220F6497900406931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30289BC720F6497900406931 /* NormandieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NormandieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30289BCB20F6497900406931 /* NormandieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormandieTests.swift; sourceTree = "<group>"; };
+		30289BCD20F6497900406931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30289BD220F6497900406931 /* NormandieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NormandieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30289BD620F6497900406931 /* NormandieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormandieUITests.swift; sourceTree = "<group>"; };
+		30289BD820F6497A00406931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30289BB020F6497900406931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30289BC420F6497900406931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30289BCF20F6497900406931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30289BAA20F6497900406931 = {
+			isa = PBXGroup;
+			children = (
+				30289BB520F6497900406931 /* Normandie */,
+				30289BCA20F6497900406931 /* NormandieTests */,
+				30289BD520F6497900406931 /* NormandieUITests */,
+				30289BB420F6497900406931 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30289BB420F6497900406931 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30289BB320F6497900406931 /* Normandie.app */,
+				30289BC720F6497900406931 /* NormandieTests.xctest */,
+				30289BD220F6497900406931 /* NormandieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30289BB520F6497900406931 /* Normandie */ = {
+			isa = PBXGroup;
+			children = (
+				30289BB620F6497900406931 /* AppDelegate.swift */,
+				30289BB820F6497900406931 /* ViewController.swift */,
+				30289BBA20F6497900406931 /* Main.storyboard */,
+				30289BBD20F6497900406931 /* Assets.xcassets */,
+				30289BBF20F6497900406931 /* LaunchScreen.storyboard */,
+				30289BC220F6497900406931 /* Info.plist */,
+			);
+			path = Normandie;
+			sourceTree = "<group>";
+		};
+		30289BCA20F6497900406931 /* NormandieTests */ = {
+			isa = PBXGroup;
+			children = (
+				30289BCB20F6497900406931 /* NormandieTests.swift */,
+				30289BCD20F6497900406931 /* Info.plist */,
+			);
+			path = NormandieTests;
+			sourceTree = "<group>";
+		};
+		30289BD520F6497900406931 /* NormandieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30289BD620F6497900406931 /* NormandieUITests.swift */,
+				30289BD820F6497A00406931 /* Info.plist */,
+			);
+			path = NormandieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30289BB220F6497900406931 /* Normandie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30289BDB20F6497A00406931 /* Build configuration list for PBXNativeTarget "Normandie" */;
+			buildPhases = (
+				30289BAF20F6497900406931 /* Sources */,
+				30289BB020F6497900406931 /* Frameworks */,
+				30289BB120F6497900406931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Normandie;
+			productName = Normandie;
+			productReference = 30289BB320F6497900406931 /* Normandie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30289BC620F6497900406931 /* NormandieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30289BDE20F6497A00406931 /* Build configuration list for PBXNativeTarget "NormandieTests" */;
+			buildPhases = (
+				30289BC320F6497900406931 /* Sources */,
+				30289BC420F6497900406931 /* Frameworks */,
+				30289BC520F6497900406931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30289BC920F6497900406931 /* PBXTargetDependency */,
+			);
+			name = NormandieTests;
+			productName = NormandieTests;
+			productReference = 30289BC720F6497900406931 /* NormandieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30289BD120F6497900406931 /* NormandieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30289BE120F6497A00406931 /* Build configuration list for PBXNativeTarget "NormandieUITests" */;
+			buildPhases = (
+				30289BCE20F6497900406931 /* Sources */,
+				30289BCF20F6497900406931 /* Frameworks */,
+				30289BD020F6497900406931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30289BD420F6497900406931 /* PBXTargetDependency */,
+			);
+			name = NormandieUITests;
+			productName = NormandieUITests;
+			productReference = 30289BD220F6497900406931 /* NormandieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30289BAB20F6497900406931 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = VJB;
+				TargetAttributes = {
+					30289BB220F6497900406931 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					30289BC620F6497900406931 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 30289BB220F6497900406931;
+					};
+					30289BD120F6497900406931 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 30289BB220F6497900406931;
+					};
+				};
+			};
+			buildConfigurationList = 30289BAE20F6497900406931 /* Build configuration list for PBXProject "Normandie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30289BAA20F6497900406931;
+			productRefGroup = 30289BB420F6497900406931 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30289BB220F6497900406931 /* Normandie */,
+				30289BC620F6497900406931 /* NormandieTests */,
+				30289BD120F6497900406931 /* NormandieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30289BB120F6497900406931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30289BC120F6497900406931 /* LaunchScreen.storyboard in Resources */,
+				30289BBE20F6497900406931 /* Assets.xcassets in Resources */,
+				30289BBC20F6497900406931 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30289BC520F6497900406931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30289BD020F6497900406931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30289BAF20F6497900406931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30289BB920F6497900406931 /* ViewController.swift in Sources */,
+				30289BB720F6497900406931 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30289BC320F6497900406931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30289BCC20F6497900406931 /* NormandieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30289BCE20F6497900406931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30289BD720F6497900406931 /* NormandieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30289BC920F6497900406931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30289BB220F6497900406931 /* Normandie */;
+			targetProxy = 30289BC820F6497900406931 /* PBXContainerItemProxy */;
+		};
+		30289BD420F6497900406931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30289BB220F6497900406931 /* Normandie */;
+			targetProxy = 30289BD320F6497900406931 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30289BBA20F6497900406931 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30289BBB20F6497900406931 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30289BBF20F6497900406931 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30289BC020F6497900406931 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30289BD920F6497A00406931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30289BDA20F6497A00406931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30289BDC20F6497A00406931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Normandie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Berbi.Normandie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30289BDD20F6497A00406931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Normandie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Berbi.Normandie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30289BDF20F6497A00406931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NormandieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Berbi.NormandieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Normandie.app/Normandie";
+			};
+			name = Debug;
+		};
+		30289BE020F6497A00406931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NormandieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Berbi.NormandieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Normandie.app/Normandie";
+			};
+			name = Release;
+		};
+		30289BE220F6497A00406931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NormandieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Berbi.NormandieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Normandie;
+			};
+			name = Debug;
+		};
+		30289BE320F6497A00406931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NormandieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Berbi.NormandieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Normandie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30289BAE20F6497900406931 /* Build configuration list for PBXProject "Normandie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30289BD920F6497A00406931 /* Debug */,
+				30289BDA20F6497A00406931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30289BDB20F6497A00406931 /* Build configuration list for PBXNativeTarget "Normandie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30289BDC20F6497A00406931 /* Debug */,
+				30289BDD20F6497A00406931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30289BDE20F6497A00406931 /* Build configuration list for PBXNativeTarget "NormandieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30289BDF20F6497A00406931 /* Debug */,
+				30289BE020F6497A00406931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30289BE120F6497A00406931 /* Build configuration list for PBXNativeTarget "NormandieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30289BE220F6497A00406931 /* Debug */,
+				30289BE320F6497A00406931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30289BAB20F6497900406931 /* Project object */;
+}
