@@ -1,24 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rIG-8T-6Ob">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Activites-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ActivitesViewController" customModule="Normandie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Activites" translatesAutoresizingMaskIntoConstraints="NO" id="tvU-yt-Q36">
+                                <rect key="frame" x="16" y="45" width="343" height="228"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.019498584792017937" green="0.023548513650894165" blue="0.023569250479340553" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Activites" badgeValue="Lots !" id="6QN-X5-mzN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1076" y="132.68365817091455"/>
+        </scene>
+        <!--Tournois-->
+        <scene sceneID="nP9-WL-60r">
+            <objects>
+                <viewController id="1vq-Vq-90P" customClass="TournoisViewController" customModule="Normandie" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jGj-hd-e8J">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Tournoi" translatesAutoresizingMaskIntoConstraints="NO" id="the-Wc-7bn">
+                                <rect key="frame" x="27" y="39" width="360" height="264"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="8Uo-Ya-P8b">
+                                <rect key="frame" x="152.28544966778296" y="327.66666666666652" width="109.33333333333333" height="102.33333333333333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Tennis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ljz-FZ-oHi">
+                                        <rect key="frame" x="0.0" y="0.0" width="109.33333333333333" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Pingpong" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYg-eo-Dyw">
+                                        <rect key="frame" x="0.0" y="27.333333333333336" width="109.33333333333333" height="20.333333333333336"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Pétanque" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aog-wz-2xB">
+                                        <rect key="frame" x="0.0" y="54.666666666666664" width="109.33333333333333" height="20.333333333333336"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Tir au couteau" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FfK-Ie-6Hv">
+                                        <rect key="frame" x="0.0" y="82" width="109.33333333333333" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="the-Wc-7bn" firstAttribute="centerX" secondItem="jGj-hd-e8J" secondAttribute="centerX" id="hQZ-GQ-PbH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HBp-78-eig"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tournois" id="Myi-iU-6sZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="acM-YX-Y9T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-276" y="902.69865067466276"/>
+        </scene>
+        <!--Forum-->
+        <scene sceneID="PEl-Co-qrE">
+            <objects>
+                <viewController id="JCJ-tH-IxA" customClass="ForumViewController" customModule="Normandie" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i3x-Ka-hI7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Forum" translatesAutoresizingMaskIntoConstraints="NO" id="lZo-pP-VmU">
+                                <rect key="frame" x="-193" y="20" width="800" height="183"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.79856318235397339" green="0.90153557062149048" blue="0.04239160567522049" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lZo-pP-VmU" firstAttribute="centerX" secondItem="i3x-Ka-hI7" secondAttribute="centerX" id="LCX-3C-8Fp"/>
+                            <constraint firstItem="lZo-pP-VmU" firstAttribute="centerX" secondItem="i3x-Ka-hI7" secondAttribute="centerX" id="Pk0-So-ssQ"/>
+                            <constraint firstItem="lZo-pP-VmU" firstAttribute="centerX" secondItem="i3x-Ka-hI7" secondAttribute="centerX" id="gry-Kv-AZH"/>
+                            <constraint firstItem="lZo-pP-VmU" firstAttribute="centerX" secondItem="i3x-Ka-hI7" secondAttribute="centerX" id="iHn-CP-nzi"/>
+                            <constraint firstItem="lZo-pP-VmU" firstAttribute="centerX" secondItem="i3x-Ka-hI7" secondAttribute="centerX" id="loW-Wd-0bb"/>
+                            <constraint firstItem="lZo-pP-VmU" firstAttribute="centerX" secondItem="i3x-Ka-hI7" secondAttribute="centerX" id="nyt-QO-uAR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Kti-hG-eZv"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Forum" badgeValue="1" id="WFK-E1-biB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cw0-SO-fHS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="396" y="893.70314842578716"/>
+        </scene>
+        <!--Infos pratiques-->
+        <scene sceneID="nyQ-us-nFj">
+            <objects>
+                <viewController id="3t8-yc-BUS" customClass="InfosPratiquesViewController" customModule="Normandie" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kX0-6P-lVc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Informations pratiques" translatesAutoresizingMaskIntoConstraints="NO" id="3x6-xD-xeo">
+                                <rect key="frame" x="16" y="20" width="382" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="5fQ-Hx-9bA">
+                                <rect key="frame" x="20" y="231" width="374" height="354"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="343" id="TTR-Vy-idI"/>
+                                </constraints>
+                                <string key="text">Directions:
+- En voiture: Le Muguet, Ménerval, Normandie. Proche de Dampierre en Bray. La maison la plus en haut de la courbe, dont le portail est légèrement en retrait dans la haie.
+- En train possible jusqu'à Gournay-en-Bray puis un grand merci aux conducteurs qui mettront 30mn aller-retour.
+
+
+Couvertures et draps sur place. Mieux de venir avec serviettes.
+
+Wifi: réseau ouvert (sans code).
+
+Téléphone: 02 35 90 63 30</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.82527035474777222" blue="0.020067924633622169" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5fQ-Hx-9bA" firstAttribute="trailing" secondItem="3x6-xD-xeo" secondAttribute="trailing" id="THX-kS-Nkq"/>
+                            <constraint firstItem="5fQ-Hx-9bA" firstAttribute="leading" secondItem="kX0-6P-lVc" secondAttribute="leadingMargin" id="V5m-fZ-nX8"/>
+                            <constraint firstItem="5fQ-Hx-9bA" firstAttribute="top" secondItem="3x6-xD-xeo" secondAttribute="bottom" constant="83" id="tCy-sV-b5D"/>
+                            <constraint firstItem="Mb1-V9-UaW" firstAttribute="bottom" secondItem="5fQ-Hx-9bA" secondAttribute="bottom" constant="113" id="yj0-2z-GE6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Mb1-V9-UaW"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Infos pratiques" id="dD8-4s-ZN4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Xq-Dq-3Mm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1075.3623188405797" y="893.47826086956525"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="MVs-27-tHo">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="rIG-8T-6Ob" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SXm-Id-dV3">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Y7O-Zr-RXJ"/>
+                        <segue destination="3t8-yc-BUS" kind="relationship" relationship="viewControllers" id="rgl-1z-FUY"/>
+                        <segue destination="JCJ-tH-IxA" kind="relationship" relationship="viewControllers" id="2gD-rU-v0b"/>
+                        <segue destination="1vq-Vq-90P" kind="relationship" relationship="viewControllers" id="dZ6-Qs-vIv"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0yc-wT-1mt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Activites" width="460" height="435"/>
+        <image name="Forum" width="800" height="457"/>
+        <image name="Informations pratiques" width="609" height="204"/>
+        <image name="Tournoi" width="360" height="266"/>
+    </resources>
 </document>

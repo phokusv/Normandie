@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		30289BB720F6497900406931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30289BB620F6497900406931 /* AppDelegate.swift */; };
-		30289BB920F6497900406931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30289BB820F6497900406931 /* ViewController.swift */; };
+		30289BB920F6497900406931 /* ActivitesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30289BB820F6497900406931 /* ActivitesViewController.swift */; };
 		30289BBC20F6497900406931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30289BBA20F6497900406931 /* Main.storyboard */; };
 		30289BBE20F6497900406931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30289BBD20F6497900406931 /* Assets.xcassets */; };
 		30289BC120F6497900406931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30289BBF20F6497900406931 /* LaunchScreen.storyboard */; };
 		30289BCC20F6497900406931 /* NormandieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30289BCB20F6497900406931 /* NormandieTests.swift */; };
 		30289BD720F6497900406931 /* NormandieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30289BD620F6497900406931 /* NormandieUITests.swift */; };
+		30289BE520F64A1900406931 /* InfosPratiquesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30289BE420F64A1900406931 /* InfosPratiquesViewController.swift */; };
+		30289BE720F64A8E00406931 /* ForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30289BE620F64A8E00406931 /* ForumViewController.swift */; };
+		30289BE920F64AE200406931 /* TournoisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30289BE820F64AE200406931 /* TournoisViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		30289BB320F6497900406931 /* Normandie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Normandie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30289BB620F6497900406931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30289BB820F6497900406931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30289BB820F6497900406931 /* ActivitesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitesViewController.swift; sourceTree = "<group>"; };
 		30289BBB20F6497900406931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30289BBD20F6497900406931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30289BC020F6497900406931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		30289BD220F6497900406931 /* NormandieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NormandieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30289BD620F6497900406931 /* NormandieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormandieUITests.swift; sourceTree = "<group>"; };
 		30289BD820F6497A00406931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30289BE420F64A1900406931 /* InfosPratiquesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfosPratiquesViewController.swift; sourceTree = "<group>"; };
+		30289BE620F64A8E00406931 /* ForumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumViewController.swift; sourceTree = "<group>"; };
+		30289BE820F64AE200406931 /* TournoisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournoisViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				30289BB620F6497900406931 /* AppDelegate.swift */,
-				30289BB820F6497900406931 /* ViewController.swift */,
+				30289BB820F6497900406931 /* ActivitesViewController.swift */,
+				30289BE420F64A1900406931 /* InfosPratiquesViewController.swift */,
 				30289BBA20F6497900406931 /* Main.storyboard */,
+				30289BE820F64AE200406931 /* TournoisViewController.swift */,
+				30289BE620F64A8E00406931 /* ForumViewController.swift */,
 				30289BBD20F6497900406931 /* Assets.xcassets */,
 				30289BBF20F6497900406931 /* LaunchScreen.storyboard */,
 				30289BC220F6497900406931 /* Info.plist */,
@@ -256,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30289BB920F6497900406931 /* ViewController.swift in Sources */,
+				30289BE920F64AE200406931 /* TournoisViewController.swift in Sources */,
+				30289BE720F64A8E00406931 /* ForumViewController.swift in Sources */,
+				30289BE520F64A1900406931 /* InfosPratiquesViewController.swift in Sources */,
+				30289BB920F6497900406931 /* ActivitesViewController.swift in Sources */,
 				30289BB720F6497900406931 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRSA4UC9N3;
 				INFOPLIST_FILE = Normandie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRSA4UC9N3;
 				INFOPLIST_FILE = Normandie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
